@@ -20,10 +20,10 @@ This repository contains **selected components** extracted from a larger project
 ## 🗂️ Project Structure
 
 src/
-├── components/ # Reusable UI elements
-├── stores/ # State management (e.g., Pinia, Vuex, etc.)
-├── views/ # View-specific layouts and logic
-└── business-logic/ # Core business logic and domain rules
+├── components/ -> Reusable UI components
+├── stores/ -> Application state management (Pinia)
+├── views/ -> Route-level views
+└── business-logic/ -> Core business logic and domain services
 
 Each folder reflects a clear separation of responsibilities to promote **scalability** and **developer clarity**.
 
