@@ -5,7 +5,7 @@ import ApiClient from "@/services/api_fanprime/rest/api-client.js";
 import { useCashbackHistoryStore } from "@/stores/cashback/cashbackHistory.js";
 
 export default {
-  // Function to fetch all partners
+  // Function to fetch all user cashback history
   async fetchUserCashbackHistory(id, page = 1, size = 8) {
     const cashbackHistoryStore = useCashbackHistoryStore();
     const apiClient = new ApiClient(
