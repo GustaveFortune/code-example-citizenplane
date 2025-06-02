@@ -1,0 +1,22 @@
+.cashback-view-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding-top: 80px;
+  padding-bottom: var(--cashback-view-container__padding-bottom);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+// ------------------ TRANSITIONS ------------------ //
+.infos-enter-active,
+.infos-leave-active {
+  transition: right 0.3s ease;
+}
+
+.infos-enter-from,
+.infos-leave-to {
+  right: var(--right-transition);
+}

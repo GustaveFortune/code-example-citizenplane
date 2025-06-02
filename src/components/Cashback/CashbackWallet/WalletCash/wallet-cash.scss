@@ -1,0 +1,25 @@
+.wallet-cash-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-xs);
+  flex: 1 0 0;
+
+  color: var(--status-container__color);
+
+  .amount-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+  }
+
+  .status-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-2xs);
+    align-self: stretch;
+  }
+}
